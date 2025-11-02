@@ -87,7 +87,7 @@ function displayStats() {
   window.alert("---- Your Stats: ---- \n \n" + 
     "Wins: " + (gameStats.wins) + "\n" + 
     "Losses: " + (gameStats.losses) + "\n" +
-    "Total Attempts: " + (gameStats.attempts));
+    "Total Guess Attempts: " + (gameStats.attempts));
 }
 function resetStats() {
   gameStats.attempts = 0;
