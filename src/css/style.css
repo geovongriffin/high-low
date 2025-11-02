@@ -123,15 +123,9 @@ button:active {
     font-size: 1.2em;
     color: #302121;
   }
-  main { display: none; }
-  body { box-shadow: none; }
-  #vp-warning {
-    display: contents;
-    text-align: center;
-  }
-  #namehere { display: none; }
 }
 @media screen and (orientation: landscape) and (max-height: 720px) {
   header { display: none; }
 
 }
+
