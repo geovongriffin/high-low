@@ -100,7 +100,7 @@ button:active {
 #namehere:hover { opacity: 100%; }
 
 /* Breaks */
-@media screen and (min-width: 0) and (max-width: 376px) { 
+@media screen and (min-width: 0) and (max-width: 370px) { 
   header {
     font-size: 1.2em;
     color: #302121;
@@ -133,4 +133,5 @@ button:active {
 }
 @media screen and (orientation: landscape) and (max-height: 720px) {
   header { display: none; }
+
 }
